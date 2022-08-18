@@ -4,8 +4,8 @@
   /* COLOR VARIABLES */
 
   /* Primary Colors*/
-  --Bright-orange: hsl(31, 77%, 52%);
-  --Dark-cyan: hsl(184, 100%, 22%);
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
   --Very-dark-cyan: hsl(179, 100%, 13%);
 
   /* Neutral Colors */
@@ -20,4 +20,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-1 {
+  background-color: var(--bright-orange);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.column-title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 25px;
+  color: var(--Very-light-gray);
+}
+
+.column-paragraph {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: var(--Transparentwhite);
+}
+
+.column-button {
+  background-color: var(--Very-light-gray);
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--Very-light-gray);
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  color: var(--bright-orange);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+
 }
