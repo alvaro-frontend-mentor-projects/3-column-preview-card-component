@@ -32,7 +32,8 @@
   background-color: var(--bright-orange);
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 40px;
+  width: 350px;
 }
 
 .column-title {
@@ -45,6 +46,8 @@
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
   color: var(--Transparentwhite);
+  padding: 0 20px 0 0;
+  line-height: 25px;
 }
 
 .column-button {
